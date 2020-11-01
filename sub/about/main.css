@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+x {
+  color: #ff8c00;
+}
+h5 {
+  text-align: center;
+  color: #ff8c00;
+}
+body {
+  background-color: #101010;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  text-align: center;
+  color: mintcream;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 35px;
+}
+
+ul1 {
+  text-align: center;
+  color: mintcream;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+h3 {
+  text-align: center;
+  color: #ff8c00;
+}
+a {
+  color: #ff8c00;
+}
+
+#image {
+  border-radius: 5%;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

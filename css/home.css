@@ -1,0 +1,44 @@
+#image {
+  border-radius: 5%;
+}
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.imgcenter {
+  text-align: center;
+}
+
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.carousel-indicators .active {
+  background-color: blue;
+}
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}

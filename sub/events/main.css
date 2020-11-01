@@ -1,0 +1,33 @@
+
+     
+       #image {
+        border-radius: 5%;
+      }    
+
+ footer {
+   background-color: black;
+   padding: 20px;
+  text-align: center;
+   color: white;
+ }
+
+ .gallery img {
+  transition: 0.5s;
+  padding: 15px;
+  width: 300px;
+
+}
+
+.gallery img:hover{
+ filter: grayscale(100%);
+ transform: scale(1.1);
+
+}
+
+
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+
